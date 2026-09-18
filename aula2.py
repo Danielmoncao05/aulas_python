@@ -213,6 +213,7 @@ print("-" * 15)
 print("Exercicio 15 - Custo final da compra")
 print("-" * 15)
 
+
 precoUnitario = float(input("Digite o preco unitario: "))
 quantidade = int(input("Digite a quantidade do produto: "))
 frete = float(input("Digite a taxa de frete: "))
