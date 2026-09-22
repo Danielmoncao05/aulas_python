@@ -17,15 +17,15 @@ print(soma)
 # Objetivo: Criar uma função que valide o tamanho de uma string, simulando uma
 # consistência de dados.
 
-# def leituraStrin (string):
-#     resultado = len(string)
-#     if resultado >= 1 and resultado <= 100 :
-#          return True
-#     else :
-#         return False
+def leituraStrin(string):
+    resultado = len(string)
+    if resultado >= 1 and resultado <= 100 :
+         return True
+    else :
+        return False
 
-# texto = str(input("digite um texto: "))
-# print(leituraStrin(texto))
+texto = str(input("digite um texto: "))
+print(leituraStrin(texto))
 
 # Exercício 2: Cálculo de Imposto (Funções com Retorno)
 
